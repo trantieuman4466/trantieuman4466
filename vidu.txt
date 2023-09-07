@@ -1,0 +1,53 @@
+hello world
+hello world
+tran tieu man
+cd,mkdir,touch,echo>,echo>>,clear,ls
+
+diff <file1> <file2>
+rm <filename>
+rm -d <directory>
+rm -r <directory>
+cat <filename>
+Git help
+git --version
+git log
+git init <reponame> 
+tao ban sao; git clone <reponame> 
+xem cau hinh: git config -l
+git config -l <--scope>
+scope: --system,--global,--local
+git add <filename> vao index
+git commit -m <noidungghichu> tao commit respo
+git status: su khac biet 
+git diff: so sanh vs commit cuoi cung
+git log: de lich su
+gitignore: bo qua cac file ko can giam sat
+.gitignore
+git init --bare: tao mot centrel respo
+git clone <reponame> <clonename>: sao chep va lien ket reponame
+git fetch; lay cac thong tin ve commit
+git pull,git push: lay, day du lieu tu central ve local va ngipc lai
+git checkout <commit hash>: chuyen doi giua cac commit trong git
+git brach <branchname>:tao nhanh 
+git branch -l: xem nhanh
+git merge: ket hop nhanh
+git rebase: tai co so cho mot nhanh trong git
+git rebase <ten nhanh>,
+git rebase --cotinue, git rebase --skip
+git branch -d <ten nhanh>: xoa nhanh
+git branch -a: xem toan bo nhanh
+git push origin -d <ten nhanh>: xoa nhanh tren remotes
+git push -u origin <ten nhanh>: git push lan dau tren nhanh tao them(hoac tren github)
+git reset <commit id>: huy bo commit
+git reset --soft <commit id>: ko loai bo file,stage
+git reset --hard <commit id>: di chuyen con tro head ve vi tri commit reset va loai bo tat ca thay doi cua file,stage
+git revert <commit id>: quay lai cac commit truoc day
+git clone <link github>: lay repo tu git hub ve
+git remote add origin <link github>: day du an ca nhan len github
+git branch -m <ten nhanh chinh>: (thay doi ten nhanh chinh(main thanh master hoac nguoc lai)
+git remote -v :fork va cap nhat repo 
+git remote add newUpstream <link repo github>: cap nhap repo cua nguoi khac
+git fetch newUpstream: thong bao 
+
+
+
